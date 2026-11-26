@@ -22,7 +22,7 @@ repository               : "Octagonsakink/LJT-Homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           :
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"
   bio              : "Ph.D. candidate, HKUST NLP Group"
@@ -111,9 +111,9 @@ staticman:
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
-  moderation             : true
+  moderation              : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields          : ['name', 'email', 'message']
   transforms:
     email                : "md5"
   generatedFields:
@@ -131,7 +131,6 @@ google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 
 # Social Sharing
 twitter:
@@ -287,7 +286,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
